@@ -4,16 +4,9 @@
   "description": "SharePoint Liste Yöneticisi - Modern ve kullanıcı dostu SharePoint liste yönetim arayüzü",
   "main": "index.html",
   "scripts": {
-    "start": "serve -s . -l 3000",
-    "build": "echo 'Build completed' && exit 0"
+    "build": "echo 'Static site build completed'"
   },
   "keywords": ["sharepoint", "list", "manager", "dashboard", "bootstrap"],
   "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "serve": "^14.2.0"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+  "license": "MIT"
 }

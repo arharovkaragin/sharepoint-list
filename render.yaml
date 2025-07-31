@@ -2,9 +2,9 @@ services:
   - type: web
     name: sharepoint-list-manager
     env: static
-    buildCommand: chmod +x build.sh && ./build.sh
+    buildCommand: echo "Static site ready"
     staticPublishPath: .
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=3600

@@ -1,5 +1,3 @@
 #!/bin/bash
-# Render.com build script
-echo "Building SharePoint List Manager..."
-npm install
-echo "Build completed successfully!"
+# Static site - no build needed
+echo "Static site ready for deployment"
